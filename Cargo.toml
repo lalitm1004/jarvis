@@ -1,0 +1,10 @@
+[package]
+name = "jarvis"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15"
+serenity = "0.12.4"
+tokio = {version = "1.21.2", features=["full"]}
+lazy_static = "1.4.0"
